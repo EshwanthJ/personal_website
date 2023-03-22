@@ -90,6 +90,13 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width:400px) {
+  .title-div h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
 .title-div h5{
     color:green;
     margin-bottom: 0;
@@ -195,6 +202,6 @@
 
   }
   
-  input::placeholder{
-    color: red;
+  ::placeholder{
+    color: white!important;
   }
