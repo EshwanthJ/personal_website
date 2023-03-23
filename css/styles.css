@@ -96,7 +96,6 @@
   }
 }
 
-
 .title-div h5{
     color:green;
     margin-bottom: 0;
@@ -165,12 +164,7 @@
   .card-img-top{
     height: 150px;
     width: 150px;
-    margin-left: 80px;
-    margin-top: 20px;
   }
-
-
-
 
   /*Contact*/
   
@@ -188,8 +182,15 @@
     opacity:.25
   }
 
-  td {
-    padding-left: 10px;
+  .icon {
+    height: 50px !important;
+    width: 50px !important;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .icon-data {
+    vertical-align: middle;
   }
 
   .form-group {
@@ -199,7 +200,6 @@
   .form-control {
     background-color: black;
     border-color: black;
-
   }
   
   ::placeholder{
