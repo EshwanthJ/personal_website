@@ -1,12 +1,12 @@
 body {
-    background-color: #212529;
-    color: #fff;
+  background-color: #212529;
+  color: #fff;
 }
 .container {
-    margin-top: 100px;
-    text-align: center;
+  margin-top: 100px;
+  text-align: center;
 }
 .btn {
-    background-color: #dc3545;
-    border-color: #dc3545;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
