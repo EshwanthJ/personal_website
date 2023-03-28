@@ -30,16 +30,14 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row min-vh-100 flex-column flex-md-row">
-      <aside class="col-12 col-md-3 col-xl-2 p-0 bg-dark flex-shrink-1">
-        <!--Navbar Section-->
+    <div class="row flex-column flex-md-row">
 
-        <nav
-          class="navbar navbar-expand-md navbar-dark bd-dark flex-md-column flex-row align-items-center py-2 text-center sticky-top"
-          id="sidebar">
+      <!--Navbar Section-->
+      <div class="col-md-3 col-xl-2 p-0 bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark flex-md-column text-center sticky-top">
           <div class="text-center p-3">
             <a href="#" class="navbar-brand mx-0 font-weight-bold text-nowrap">Eshwanth J</a>
-            <img src="images/profile_pic.png" alt="profile picture"
+            <img src="images/profile_pictures/profile_pic1.png" alt="profile picture"
               class="profile-pic img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow" />
           </div>
           <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav"
@@ -77,7 +75,7 @@
           <hr />
           <!--Shortcut buttons-->
           <div class="collapse navbar-collapse order-last" id="nav">
-            <ul class="navbar-nav me-auto flex-column w-100 justify-content-center">
+            <ul class="navbar-nav me-auto flex-column justify-content-center">
               <li class="nav-item">
                 <a href="#About" class="nav-link">About</a>
               </li>
@@ -93,7 +91,7 @@
             </ul>
           </div>
         </nav>
-      </aside>
+      </div>
 
       <!--End of Navbar section-->
 
@@ -102,37 +100,37 @@
 
         <section id="Title" class="container-fluid title-section">
           <div class="row">
-            <div class="col-md-12 vh-100 bg-image">
+            <div class="col-md-12 bg-image">
               <div class="title-div py-5">
                 <h1 class="title-text">Eshwanth J</h1>
                 <h5 class="title-designation">Software engineer</h5>
                 <p class="title-des">
                   From Chess notation to HTML, CSS, React, and Node.js<br />
-                  - A full-stack developer in the making!
+                  - A full-stack developer!
                 </p>
               </div>
               <div class="skill-div container py-5">
                 <div class="row">
                   <div class="col-md-5">
                     <h2>Skills</h2>
-                    <div class="row text-white">
+                    <div class="row text-white py-2">
                       <div class="col">
                         <table>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-html5"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-html5 fa-2x"></i>
                             </td>
                             <td>HTML</td>
                           </tr>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-css3-alt"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-css3-alt fa-2x"></i>
                             </td>
                             <td>CSS</td>
                           </tr>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-bootstrap"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-bootstrap fa-2x"></i>
                             </td>
                             <td>Bootstrap</td>
                           </tr>
@@ -141,20 +139,20 @@
                       <div class="col">
                         <table>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-square-js"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-square-js fa-2x"></i>
                             </td>
                             <td>Js & jQuery</td>
                           </tr>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-react"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-react fa-2x"></i>
                             </td>
                             <td>React.js</td>
                           </tr>
                           <tr>
-                            <td>
-                              <i class="fa-brands fa-node-js"></i>
+                            <td class="skill-icon">
+                              <i class="fa-brands fa-node-js fa-2x"></i>
                             </td>
                             <td>Node.js</td>
                           </tr>
@@ -181,18 +179,17 @@
               </div>
               <div class="col-sm-12 col-md-12 col-lg-6 order-lg-1">
                 <p>
-                  I've been playing chess since I was just 5 years old. It
-                  quickly became a passion of mine, and I devoted countless
-                  hours to studying the game, honing my skills, and competing
-                  in tournaments. However, as I entered my teenage years, I
-                  found myself pulled in other directions. I set aside my
-                  chessboard and focused on completing my engineering degree.
-                  After graduation, I began working as a chess coach at KCT,
-                  helping others learn and improve their game. Being around
-                  the game reignited my own passion, and I began playing
-                  again, eager to put my skills to the test. But just as I was
-                  getting back into the swing of things, the COVID-19 pandemic
-                  hit.
+                  I've been playing chess since I was just 5 years old. It quickly became a passion of mine, and I
+                  devoted countless
+                  hours to studying the game, honing my skills, and competing in tournaments. However, as I entered my
+                  teenage years, I
+                  found myself pulled in other directions. I set aside my chessboard and focused on completing my
+                  engineering degree.
+                  After graduation, I began working as a chess coach at KCT, helping others learn and improve their
+                  game. Being around
+                  the game reignited my own passion, and I began playing again, eager to put my skills to the test. But
+                  just as I was
+                  getting back into the swing of things, the COVID-19 pandemic hit.
                 </p>
               </div>
             </div>
@@ -202,20 +199,14 @@
               </div>
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <p>
-                  I took a break from chess and focused on other things,
-                  including exploring my newfound interest in coding. I began
-                  learning about programming online, fascinated by the way it
-                  allowed me to solve complex problems and build new things
-                  from scratch. Before long, I found myself drawn to software
-                  engineering as a career path. I landed a job at Time2Chess,
-                  where I could combine my love of problem-solving with my
-                  newfound passion for coding. And now, as a software
-                  engineer, I'm able to use my skills to create innovative new
-                  tools and platforms for the chess community. Looking back on
-                  my journey, I realize that my love of chess has always been
-                  a constant thread in my life, connecting me to new people,
-                  new challenges, and new opportunities. And I can't wait to
-                  see where it will take me next.
+                  I could not play myself and I started to explore a newfound interest in coding. I began learning about
+                  programming online, fascinated by the way it allowed me to solve complex problems and build new things
+                  from scratch. Before long, what started as a hobby turned into full blown passion and I found myself
+                  drawn to software engineering as a career path. I landed a job at Time2Chess, where I could combine my
+                  love of problem-solving with my newfound passion for coding. And now, as a software engineer, I'm able
+                  to use my skills to create innovative websites, new tools and platforms. Looking back on my journey, I
+                  realize that my love of problem solving has always been a constant thread in my life, connecting me to
+                  new people, new challenges, and new opportunities. And I can't wait to see where it will take me next.
                 </p>
               </div>
             </div>
@@ -227,8 +218,10 @@
         <!--Portfolio section-->
 
         <section ID="Portfolio" class="container-fluid">
-          <div class="container-fluid pt-3 work-container">
-            <h1>Selected work</h1>
+          <div class="container-fluid pf-title d-lg-flex d-md-flex align-items-center">
+            <h1>Portfolio highlights</h1>
+            <a class="btn btn-sm btn-outline-light mx-lg-3 ms-md-auto my-sm-2"
+              href="https://eshwanthj.github.io/portfolio/" target="_blank">See all</a>
           </div>
           <div class="projects">
             <div class="album">
@@ -273,7 +266,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="card mb-4 box-shadow bg-dark">
-                      <img class="card-img-top mx-auto mt-2" src="images/portfolio/dice-game.png"
+                      <img class="card-img-top mx-auto mt-2" src="images/portfolio/dice_game.png"
                         alt="Card image cap" />
                       <div class="card-body">
                         <p class="card-text">
@@ -310,7 +303,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="card mb-4 box-shadow bg-dark">
-                      <img class="card-img-top-rec mx-auto mt-2" src="images/portfolio/t2c_logo.png"
+                      <img class="card-img-top oveflow-hidden mx-auto mt-2" src="images/portfolio/t2c_logo.jpg"
                         alt="Card image cap" />
                       <div class="card-body">
                         <p class="card-text">
@@ -328,7 +321,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <div class="card mb-4 box-shadow bg-dark">
-                      <img class="card-img-top mx-auto mt-2" src="images/portfolio/weather-app.png"
+                      <img class="card-img-top mx-auto mt-2" src="images/portfolio/weather_app.png"
                         alt="Card image cap" />
                       <div class="card-body">
                         <p class="card-text">
@@ -348,9 +341,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="text-end px-2">
-            <a class="btn btn-outline-light" href="https://eshwanthj.github.io/portfolio/" target="_blank">See all</a>
           </div>
         </section>
 

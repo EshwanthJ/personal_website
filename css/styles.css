@@ -1,8 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -101,7 +97,7 @@ hr {
 }
 
 .bg-image {
-  background-image: url(../images/whiteKingBlackBg.png);
+  background-image: url(../images/title_section/whiteKingBlackBg.png);
   background-position: center;
   background-size: cover;
 }
@@ -116,6 +112,13 @@ hr {
 }
 
 /*Skill subsection*/
+
+.skill-icon {
+  height: 50px !important;
+  width: 50px !important;
+  text-align: center;
+  vertical-align: middle;
+}
 
 .fa-html5 {
   color: #e34c26;
@@ -160,13 +163,19 @@ hr {
 
 /*Portfolio*/
 
+@media screen and (max-width: 375px) {
+  .pf-title {
+    display: block;
+  }
+}
+
 .card-img-top {
   height: 150px;
   width: 150px;
 }
 
-.card-img-top-rec {
-  height: 150px;
+.card-text {
+  text-align: justify;
 }
 
 /*Contact*/
@@ -206,7 +215,7 @@ hr {
 }
 
 ::placeholder {
-  color: white !important;
+  color: grey !important;
 }
 
 /*Footer*/
