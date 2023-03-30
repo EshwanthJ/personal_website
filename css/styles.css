@@ -152,6 +152,10 @@ hr {
   height: auto;
 }
 
+.img-about1:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
 .img-about2 {
   max-width: 100%;
   height: auto;
